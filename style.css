@@ -1508,3 +1508,53 @@ footer {
     }
 
 }
+
+/* MOBILE HERO FIX */
+@media (max-width: 768px) {
+
+.hero{
+grid-template-columns:1fr;
+padding:100px 6% 60px;
+text-align:center;
+}
+
+.hero-left{
+order:2;
+}
+
+.hero-right{
+order:1;
+display:flex;
+justify-content:center;
+margin-bottom:30px;
+}
+
+.hero-card{
+width:100%;
+max-width:260px;
+padding:20px;
+}
+
+.hero-card img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.hero h1{
+font-size:2.6rem;
+line-height:1.1;
+}
+
+.hero-sub{
+max-width:100%;
+font-size:0.95rem;
+}
+
+.hero-btns{
+justify-content:center;
+gap:12px;
+}
+
+}
